@@ -63,6 +63,8 @@ src/main/java/edu/eci/arsw/blueprints
 - Implementa un nuevo repositorio `PostgresBlueprintPersistence` que reemplace la versión en memoria.  
 - Mantén el contrato de la interfaz `BlueprintPersistence`.  
 
+[📄 Ver documentación (PDF)](doc/punto2.pdf)
+
 ### 3. Buenas prácticas de API REST
 - Cambia el path base de los controladores a `/api/v1/blueprints`.  
 - Usa **códigos HTTP** correctos:  
