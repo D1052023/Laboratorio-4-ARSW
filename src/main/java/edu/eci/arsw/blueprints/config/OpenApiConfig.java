@@ -1,7 +1,10 @@
 package edu.eci.arsw.blueprints.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
+import io.swagger.v3.oas.models.info.Contact;
 import io.swagger.v3.oas.models.info.Info;
+import io.swagger.v3.oas.models.info.License;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -10,9 +13,15 @@ public class OpenApiConfig {
 
     @Bean
     public OpenAPI api() {
-        return new OpenAPI().info(new Info()
-                .title("ARSW Blueprints API")
-                .version("v1")
-                .description("Blueprints Laboratory (Java 21 / Spring Boot 3.3.x)"));
+        return new OpenAPI()
+                .info(new Info()
+                        .title("ARSW Blueprints API")
+                        .version("v1")
+                        .description("Blueprints Laboratory (Java 21 / Spring Boot 3.3.x)")
+                        .contact(new Contact()
+                                .name("Oscar Andrés Sanchez Porras ")
+                                .email("oscar.sporras@mail.escuelaing.edu.co"))
+                        .license(new License()
+                                .name("Apache 2.0")));
     }
 }

@@ -93,6 +93,8 @@ src/main/java/edu/eci/arsw/blueprints
 - Expón documentación automática en `/swagger-ui.html`.  
 - Anota endpoints con `@Operation` y `@ApiResponse`.
 
+[📄 Ver documentación (PDF)](doc/punto4.pdf)
+
 ### 5. Filtros de *Blueprints*
 - Implementa filtros:
   - **RedundancyFilter**: elimina puntos duplicados consecutivos.  
