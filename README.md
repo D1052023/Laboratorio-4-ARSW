@@ -86,6 +86,8 @@ src/main/java/edu/eci/arsw/blueprints
   }
   ```
 
+[📄 Ver documentación (PDF)](doc/punto3.pdf)
+
 ### 4. OpenAPI / Swagger
 - Configura `springdoc-openapi` en el proyecto.  
 - Expón documentación automática en `/swagger-ui.html`.  
