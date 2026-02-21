@@ -101,6 +101,8 @@ src/main/java/edu/eci/arsw/blueprints
   - **UndersamplingFilter**: conserva 1 de cada 2 puntos.  
 - Activa los filtros mediante perfiles de Spring (`redundancy`, `undersampling`).  
 
+[📄 Ver documentación (PDF)](doc/punto5.pdf)
+[📄 Ver documentación (PDF)](doc/jacoco.pdf)
 ---
 
 ## ✅ Entregables
