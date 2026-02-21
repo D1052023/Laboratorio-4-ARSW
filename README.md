@@ -102,7 +102,9 @@ src/main/java/edu/eci/arsw/blueprints
 - Activa los filtros mediante perfiles de Spring (`redundancy`, `undersampling`).  
 
 [📄 Ver documentación (PDF)](doc/punto5.pdf)
+
 [📄 Ver documentación (PDF)](doc/jacoco.pdf)
+
 ---
 
 ## ✅ Entregables
@@ -134,3 +136,5 @@ src/main/java/edu/eci/arsw/blueprints
 
 - Imagen de contenedor (`spring-boot:build-image`).  
 - Métricas con Actuator.  
+
+[📄 Ver documentación (PDF)](doc/bono.pdf)
